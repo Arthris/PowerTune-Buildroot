@@ -1,0 +1,19 @@
+#!/bin/sh
+#
+# Load custom sysctl settings
+#
+
+[ -f /etc/sysctl.conf ] || exit 0
+
+case "$1" in
+  start)
+        printf "Loading sysctl.conf: "
+        /sbin/sysctl -p /etc/sysctl.conf
+        [ $? = 0 ] && echo "OK" || echo "FAIL"
+        ;;
+  *)
+        echo "Usage: $0 {start}"
+        exit 1
+esac
+
+exit $?

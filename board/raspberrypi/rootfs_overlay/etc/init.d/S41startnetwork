@@ -1,0 +1,7 @@
+#!bin/sh
+#
+#Start the Network
+#
+
+#Debian ifupdown needs the /run/network lock directory
+ifup wlan0
