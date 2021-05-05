@@ -1,0 +1,6 @@
+config BR2_PACKAGE_POWERTUNE
+        bool "powertune"
+        help
+          Qt5 ECU Info viewer.
+
+          
