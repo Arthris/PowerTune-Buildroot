@@ -1,26 +1,20 @@
-Buildroot is a simple, efficient and easy-to-use tool to generate embedded
-Linux systems through cross-compilation.
+This buildroot has been configured to make PowerTune Dash. This is a work in progress and I am not the Author. Links to Author will be provided. 
+Enviroment used is Ubuntu 20.04
+I have not been able to get 100% of my RPI3 to work. Such as Wifi. I dont really understand why. So feedback is greatly appreciated so that I can continue this. I am not a savy
+programmer and know only small amounts about Linux so please keep that in mind. 
 
-The documentation can be found in docs/manual. You can generate a text
-document with 'make manual-text' and read output/docs/manual/manual.text.
-Online documentation can be found at http://buildroot.org/docs.html
+Credit goes to https://github.com/MarkusIppy/buildroot.git and https://github.com/BastianGschrey/PowerTune for there work. 
 
-To build and use the buildroot stuff, do the following:
+First step after clonig is opening target dir in terminal and running 
+make raspberrypi3_qt5we_defconfig
+wait for this to complete and then run
+make menuconfig
+Wait for the menu to appear
+Use Right arrow key and navigate toe Load on the bottom and hit enter
+the File path will be correct but we need to change the name of the file to PowerTune.config and then hit enter
+After this we need to go to Save and save this again but file name needs to be .config. Path is the same 
+Once this is done we need to navigate to Target Packages, Graphic Libraries and applications And Scroll the fine package named Powertune. There is a asterisk next to is just hit
+space bar to deselct this. This is just for now. We will reselect later. 
+After this is done use right arrow to go to save and save this. Then we can exit back to terminal and invoke make
+This step will take a few hours. 
 
-1) run 'make menuconfig'
-2) select the target architecture and the packages you wish to compile
-3) run 'make'
-4) wait while it compiles
-5) find the kernel, bootloader, root filesystem, etc. in output/images
-
-You do not need to be root to build or run buildroot.  Have fun!
-
-Buildroot comes with a basic configuration for a number of boards. Run
-'make list-defconfigs' to view the list of provided configurations.
-
-Please feed suggestions, bug reports, insults, and bribes back to the
-buildroot mailing list: buildroot@buildroot.org
-You can also find us on #buildroot on Freenode IRC.
-
-If you would like to contribute patches, please read
-https://buildroot.org/manual.html#submitting-patches
