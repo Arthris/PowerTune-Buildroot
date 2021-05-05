@@ -1,0 +1,12 @@
+Round gauge,500,149.83770287141067,-10.93555093555102,rpm,10000,0,10000,-1000,-179,90,9000,1000,1000,0,1000,0,4,30,0,25,0,0,11,2,0.5,0.4,0.33,0.25,16,4,90,5,11,11,red,darkred,transparent,transparent,grey,darkgrey,darkgrey,black,grey,black,darkred,transparent,transparent,transparent,true,false,false,Lato,30,50,10,false,Lato,RPM,red, ,, ,, ,,
+Square gauge,266,119,-27.965043695380785,15.467775467775454,248,0, ,MAP,false,false,false,Dashboard,MAP,MAP,10000,-20000,transparent,transparent,transparent,transparent,lime,transparent,25,40,0,Lato,Lato,
+Square gauge,266,119,-41.94756554307115,129.2307692307692,248,0, ,ECT,false,false,false,Dashboard,Watertemp,Watertemp,10000,-20000,transparent,transparent,transparent,transparent,lime,transparent,25,40,0,Lato,Lato,
+Square gauge,266,119,-33.957553058676666,241.99584199584194,248,1, ,Oil Pres,false,false,false,Dashboard,oilpres,oilpres,10000,-20000,transparent,transparent,transparent,transparent,lime,transparent,25,40,0,Lato,Lato,
+Square gauge,266,119,-37.9525593008739,362.7442827442827,248,0, ,Fuel Pres.,false,false,false,Dashboard,FuelPress,FuelPress,10000,-20000,transparent,transparent,transparent,transparent,lime,transparent,25,40,0,Lato,Lato,
+Square gauge,266,119,572.2846441947567,244.98960498960497,248,2, ,AFR,false,false,false,Dashboard,AFR,AFR,10000,-20000,transparent,transparent,transparent,transparent,lime,transparent,25,40,0,Lato,Lato,
+Square gauge,266,119,558.3021223470662,354.7609147609147,248,0, ,RPM,false,false,false,Dashboard,rpm,rpm,10000,-20000,transparent,transparent,transparent,transparent,lime,transparent,25,40,0,Lato,Lato,
+Square gauge,266,119,558.3021223470661,131.22661122661125,248,1, ,Air T.2,false,false,false,Dashboard,airtempensor2,airtempensor2,10000,-20000,transparent,transparent,transparent,transparent,lime,transparent,25,40,0,Lato,Lato,
+Square gauge,266,119,551.3108614232207,13.47193347193344,248,1, ,Battery Voltage,false,false,false,Dashboard,BatteryV,BatteryV,10000,-20000,transparent,transparent,transparent,transparent,lime,transparent,25,40,0,Lato,Lato,
+Square gauge,266,119,362.5468164794007,223.03534303534303,248,0, ,Speed,false,false,false,Dashboard,speed,speed,10000,-20000,transparent,transparent,transparent,transparent,lime,transparent,25,40,0,Lato,Lato,
+Square gauge,266,119,323.5955056179775,289.89604989604976,248,0, ,Gear,false,false,false,Dashboard,Gear,Gear,10000,-20000,transparent,transparent,transparent,transparent,lime,transparent,25,40,0,Lato,Lato,
+
