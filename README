@@ -1,11 +1,11 @@
 This buildroot has been configured to make PowerTune Dash. This is a work in progress and I am not the Author. Links to Author will be provided. 
 Enviroment used is Ubuntu 20.04
-I have not been able to get 100% of my RPI3 to work. Such as Wifi. I dont really understand why. So feedback is greatly appreciated so that I can continue this. I am not a savy
-programmer and know only small amounts about Linux so please keep that in mind. 
+I have not been able to get 100% of my RPI3 to work. Such as Wifi. I dont really understand why. So feedback is greatly appreciated so that I can continue this. 
+I am not a savy programmer and know only small amounts about Linux so please keep that in mind. 
 
 Credit goes to https://github.com/MarkusIppy/buildroot.git and https://github.com/BastianGschrey/PowerTune for there work. 
 
-First step after clonig is opening target dir in terminal and running 
+First step after cloning is opening target dir in terminal and running 
 make raspberrypi3_qt5we_defconfig
 wait for this to complete and then run
 make menuconfig
