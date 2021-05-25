@@ -19,5 +19,5 @@ fi
 
 ip link set can0 up type can bitrate 1000000
 /home/pi/a.out &
-#/home/pi/startPowerTune.sh
+/home/pi/startPowerTune.sh
 exit 0
