@@ -3,6 +3,7 @@
 # Powertune Start
 
 start() {
+/usr/bin/omxplayer -b -l 00:00:07 /home/pi/bootvideo.mp4
 /usr/bin/PowertuneQMLGui &
 }
 stop() {
