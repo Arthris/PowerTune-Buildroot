@@ -1,0 +1,15 @@
+
+*.user
+Documents/
+
+\.~lock\.PowerTune_Manual\.doc#
+
+*.dbbf9ac
+
+udpreceiver\.cpp\.autosave
+
+daemons/DataLog\.csv
+
+PowertuneQMLGui\.pro\.user\.d437017\.20
+
+*.autosave
