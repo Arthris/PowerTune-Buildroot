@@ -10,7 +10,7 @@ make raspberrypi3_qt5we_defconfig
 wait for this to complete and then run
 make menuconfig
 Wait for the menu to appear
-Use Right arrow key and navigate toe Load on the bottom and hit enter
+Use Right arrow key and navigate to Load on the bottom and hit enter
 the File path will be correct but we need to change the name of the file to PowerTune.config and then hit enter
 After this we need to go to Save and save this again but file name needs to be .config. Path is the same 
 Once this is done we need to navigate to Target Packages, Graphic Libraries and applications And Scroll the fine package named Powertune. There is a asterisk next to is just hit
